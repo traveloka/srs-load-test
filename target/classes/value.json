@@ -1,0 +1,103 @@
+{
+  "DURATION": {
+    "min": "${duration_min}",
+    "max": "${duration_max}"
+  },
+  "GEO": {
+    "geoId": "${geoId}",
+    "distanceInM": 100
+  },
+  "GEO_TYPE": {
+    "gType": "${gType}"
+  },
+  "GEO_EXCLUDE": {
+    "geoId": "${geoId}"
+  },
+  "GEO_IDS": {
+    "geoId": "${geoId}"
+  },
+  "LANDMARK": {
+    "landmarkId": "${ladmarkId}"
+  },
+  "NEARBY": {
+    "lat": "${lat}",
+    "lon": "${lon}",
+    "distanceInM": 70000
+  },
+  "DISTANCE": {
+    "lat": "${lat}",
+    "lon": "${lon}"
+  },
+  "DISCOUNT": {
+    "min": "${discount_min}",
+    "max": "${discount_max}"
+  },
+  "RATING": {
+    "min": "${rating_min}",
+    "max": "${rating_max}"
+  },
+  "PROVIDER_RATING": {
+    "min": "${rating_min}",
+    "max": "${rating_max}"
+  },
+  "TRENDING": {
+    "valueBool": "${trending_bool}"
+  },
+  "SPECIAL_OFFERS": {
+    "valueBool": "${specialOffers_bool}"
+  },
+  "INSTANT_VOUCHER": {
+    "valueBool": "${instantVoucher_bool}"
+  },
+  "OPEN_24_HOURS": {
+    "valueBool": "${open24Hours_bool}"
+  },
+  "THEME_PROPERTY": {
+    "values": "${theme_values}"
+  },
+  "ACTIVE": {
+    "valueBool": "${active_bool}"
+  },
+  "INACTIVE_DURATION": {
+    "time": "${time}",
+    "tz": "${tz}"
+  },
+  "PRODUCT_SOURCE": {
+    "values": "${values}"
+  },
+  "PRODUCT_SEARCH": {
+    "values": "${values}"
+  },
+  "CATEGORY": {
+    "values": "${values}"
+  },
+  "AUTHOR_ID": {
+    "id": "${id}"
+  },
+  "SUB_CATEGORIES": {
+    "values": "${subCategories_values}"
+  },
+  "TAGS": {
+    "values": "${tags}"
+  },
+  "GEO_SHAPE": {
+    "lat": "${lat}",
+    "lon": "${lon}",
+    "gType": "${gType}"
+  },
+  "SUB_CATEGORIES_AGG": {
+    "values": "${subCategories_values}"
+  },
+  "DISHES": {
+    "values": "${dishes}"
+  },
+  "CUISINES": {
+    "values": "${cuisines}"
+  },
+  "FOOD_RESTRICTIONS": {
+    "values": "${foodRestriction}"
+  },
+  "FACILITIES": {
+    "values": "${facilities}"
+  }
+}

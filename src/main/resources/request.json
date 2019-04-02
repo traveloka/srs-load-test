@@ -1,0 +1,27 @@
+[{
+
+   "SearchClient": "EXPERIENCE",
+   "categorySpec":["ACTIVITY","ATTRACTION","CULINARY","TOURS","EVENT","BEAUTY_AND_SPA","HOBBIES_AND_LIFESTYLE","SPORTS","ENTERTAINMENT"],
+   "filter": ["THEME_PROPERTY", "POPULARITY_SCORE","DISCOUNT","DURATION"],
+   "sort": ["PRICE","DYNAMIC_RANGE_FILTER","DURATION"]
+
+  },
+
+
+  {
+    "SearchClient": "acm",
+    "sort": ["POPULARITY_SCORE","PRICE","DURATION","RATING"],
+    "filter":["PRICE_RANGE","DURATION"],
+    "categorySpec":[]
+
+ },
+
+
+  {
+    "SearchClient": "cul",
+    "sort": ["POPULARITY_SCORE"],
+    "filter": ["DURATION"],
+    "categorySpec": []
+
+  }
+]
